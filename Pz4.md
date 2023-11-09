@@ -78,24 +78,25 @@
 
 Установка согласно https://signoz.io/docs/install/docker/#install-signoz-using-docker-compose
 
-![](screenshots/18-start-signoz.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/571edf74-d0a1-4577-9c41-e63efa75f860)
 
 ### Рабочая панель Signoz
 
-![](screenshots/19-open-signoz.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/b93b150a-a211-4824-aca0-0743f6abb985)
 
 ### Редактирование конфигурации клиентского приложения для отправки данных в Signoz
 
 Используемое приложение - https://github.com/SigNoz/sample-nodejs-app/
 
-![](screenshots/20-update-compose-client.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/54f15f43-abbb-49e0-9e91-f194cc577e42)
 
 ### Запуск клиентского приложения
 
-![](screenshots/21-start-client.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/945306e0-65cf-4bfc-aee3-5563f56b2afa)
 
 ### Информация о приложении в Signoz
 
-![](screenshots/22-dashboards.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/59e0d9be-e2e8-4f35-b493-d71390aae64a)
 
-![](screenshots/23-traces.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/200e1a3a-e87a-4c89-b67a-79a0578775d0)
+
