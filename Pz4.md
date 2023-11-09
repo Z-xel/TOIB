@@ -1,74 +1,76 @@
 # Практическое задание №4. Сбор логов
 
-Выполнил Сердюков Матвей, группа ББМО-01-23
+Выполнил Курдюков Александр, группа ББМО-01-23
 
 ## `rsyslog`
 
 ### Установка `rsyslog` на сервер
 
-![](screenshots/01-install-rsyslog-server.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/f6fce66e-2938-456d-aa71-b1f5a9b329dc)
 
-![](screenshots/02-rsyslog-running.png)
+
+![image](https://github.com/Z-xel/TOIB/assets/70752907/10a9e2e9-fe7b-4874-95eb-ae60260123a4)
 
 ### Настройка модулей `rsyslog`
 
-![](screenshots/03-load-modules.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/04bca09c-534c-4fcc-8219-e77f4e26ef0f)
 
 ### Добавление правил обработки логов
 
-![](screenshots/04-add-ruleset.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/8c130466-4553-4446-bb74-11264c86d162)
 
 ### Применение конфигурации `rsyslog`
 
-![](screenshots/05-apply-config.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/ec97b9a4-97a7-4562-b85c-55616705550f)
 
 ### Установка `rsyslog` на клиент
 
-![](screenshots/06-install-rsyslog-client.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/4628631d-5270-4d3c-bbed-7eb0ef5f2ca0)
 
-![](screenshots/07-client-rsyslog-running.png)
+
+![image](https://github.com/Z-xel/TOIB/assets/70752907/9b476a3e-8b37-4312-b5fc-be61973e17b9)
 
 ### Добавление правила пересылки логов на сервер
 
-![](screenshots/08-add-client-rule.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/2547a14e-4ea7-4591-98a4-8de64f407751)
 
 ### Применение конфигурации `rsyslog`
 
-![](screenshots/09-apply-client-config.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/818df6cf-8e4f-427b-9dbf-3a4971159bf1)
 
 ### Просмотр полученных логов на сервере
 
-![](screenshots/10-logs-recieved.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/fc937dd3-d662-45c2-a50b-e1d2e417ddbd)
 
 ## Grafana Loki
 
 ### Загрузка compose-файла от разработчика
 
-![](screenshots/11-download-loki-compose.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/fadf000c-648d-476a-bfc4-61f68ce0cfb0)
 
 ### Редактирование compose-файла с целью отключения компонента `promtail` на сервере
 
-![](screenshots/12-edit-compose.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/9a197b5d-e5bb-474d-9d1c-94e6db1ce9f3)
 
 ### Запуск Loki
 
-![](screenshots/13-start-loki.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/2231886c-8cda-4ac5-9528-9095d4de9e82)
 
 ### Редактирование конфигурации `promtail` на клиенте
 
-![](screenshots/14-promtail-config.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/07666e73-1ffd-4f70-bc16-d24a8913b00e)
 
 ### comopose-файл для `promtail`
 
-![](screenshots/15-promtail-compose.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/bacdebfa-6b87-466a-8440-3cb86ac38025)
 
 ### Запуск `promtail` на клиенте
 
-![](screenshots/16-start-promtail.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/10b5a596-c958-4e7c-8880-dae9d4511b3f)
 
 ### Просмотр логов клиента в Grafana
 
-![](screenshots/17-viewing-logs.png)
+![image](https://github.com/Z-xel/TOIB/assets/70752907/270f023f-adf0-4e8f-8e5f-5e3dae12278d)
 
 ## Signoz
 
