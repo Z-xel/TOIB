@@ -1,4 +1,4 @@
-# Практическое задание №4. Сбор логов
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/e7ff18a5-8432-44cc-8a26-8d6e44facb1f)# Практическое задание №4. Сбор логов
 
 Выполнил Курдюков Александр, группа ББМО-01-23
 
@@ -17,7 +17,7 @@
 
 ### Добавление правил обработки логов
 
-![image](https://github.com/Z-xel/TOIB/assets/70752907/8c130466-4553-4446-bb74-11264c86d162)
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/e5b43487-bac0-46ea-8e11-4639fd9b2c4b)
 
 ### Применение конфигурации `rsyslog`
 
@@ -32,7 +32,7 @@
 
 ### Добавление правила пересылки логов на сервер
 
-![image](https://github.com/Z-xel/TOIB/assets/70752907/2547a14e-4ea7-4591-98a4-8de64f407751)
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/c9f1da83-aeb1-46d8-8e01-6babf5fdeb9d)
 
 ### Применение конфигурации `rsyslog`
 
@@ -40,7 +40,7 @@
 
 ### Просмотр полученных логов на сервере
 
-![image](https://github.com/Z-xel/TOIB/assets/70752907/fc937dd3-d662-45c2-a50b-e1d2e417ddbd)
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/d0c6077b-5122-42ce-8a97-1d808b9c5677)
 
 ## Grafana Loki
 
