@@ -26,6 +26,7 @@
 Далее изменим часть системных файлов для получения ответа от утилиты, перед этим сделав бэкап:<br /><br />
 ![image](https://github.com/Z-xel/TOIB/assets/70752907/b29c54f6-8686-4e39-83a1-31b71c7af174)<br />
 Получаем результат от утилиты:<br /><br />
-![изображение](https://github.com/kirasir1/toib_prak/assets/13931629/e4572623-ba08-4c70-82ca-03635c309392)<br />
+![image](https://github.com/Z-xel/TOIB/assets/70752907/aec9e086-af28-422c-a90a-def1b9040dc3)
+<br />
 
 
