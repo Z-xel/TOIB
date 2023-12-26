@@ -27,32 +27,38 @@
 ![изображение](https://github.com/Z-xel/TOIB/assets/70752907/84078d48-faa7-4867-b22a-6565b22de577) | ![изображение](https://github.com/Z-xel/TOIB/assets/70752907/d5e3e4fb-849d-4c6a-ba68-1daa09c9f2d9)
 
 ### Экспорт публичного ключа в бинарном и текстовом виде
-![](https://i.imgur.com/vJkNn2L.png)
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/344be776-7c0f-4a2d-97c3-2316e60baf82)
 В бинарном виде | В текстовом виде
 --- | ---
-`gpg --output chursinov-pub.gpg` | `gpg --armor --output chursinov-pub.asc --export chursinov.g.s@edu.mirea.ru`
-![](https://i.imgur.com/kY0mxbK.png) | ![](https://i.imgur.com/zhMDUfx.png)
+`gpg --output kurdyukov-pub.gpg` | `gpg --armor --output kurdyukov-pub.asc --export kurdyuko.a.a@edu.mirea.ru`
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/bf3b3b62-ad46-4fa5-b1c7-f8563324026c) | ![изображение](https://github.com/Z-xel/TOIB/assets/70752907/400fb4fe-3619-48a6-bf09-e7004ab854af)
+
 ### Создание файла для подписи
-![](https://i.imgur.com/jaxSciL.png)
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/c5d5b1ff-277a-40b5-806b-9cf6263db0fe)
+
 ### Создание цифровой подписи в бинарном виде
 
-`gpg --local-user chursinov.g.s@edu.mirea.ru --sign file.txt`
+`gpg --local-user kurdyuko.a.a@edu.mirea.ru --sign msg.txt`
 
-![](https://i.imgur.com/ynUtXnT.png)
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/872b3f74-bd04-4034-86ad-4f5f0f647831)
+
 ### Проверка подписи
 
-`gpg --verity file.txt.gpg`
+`gpg --verify msg.txt.gpg`
 
-![](https://i.imgur.com/Cwuzo6d.png)
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/98846530-9681-480d-81ee-159c253945af)
+
 ### Создание цифровой подписи в формате ASCII
 
-`gpg --local-user chursinov.g.s@edu.mirea.ru --armor --sign file.txt`
+`gpg --local-user kurdyuko.a.a@edu.mirea.ru --armor --sign msg.txt`
 
-![](https://i.imgur.com/Bv3K6pC.png)
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/60c63b8e-547e-4cf0-8a43-31b0c2269d98)
+
 ### Создание цифровой подписи, вставленной в содержимое файла
 
-`gpg --local-user chursinov.g.s@edu.mirea.ru --clearsign file.txt`
+`gpg --local-user kurdyuko.a.a@edu.mirea.ru --clearsign secret`
 
-`gpg --verify file.txt.asc`
+`gpg --verify secret.asc`
 
-![](https://i.imgur.com/oGVtN5U.png)
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/beacdd2e-cba8-4d91-b80c-82cf5eb11bbb)
+
