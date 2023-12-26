@@ -1,28 +1,31 @@
 # Лабораторная работа №4
-## Чурсинов Герман Сергеевич ББМО-01-23
+## Курдюков Александр Анатольевич ББМО-01-23
 ### Создание ключевой пары GPG
 
 `gpg --full-generate-key`
 
-![](https://i.imgur.com/Mi9LucW.png)
-![](https://i.imgur.com/5L9R1rU.png)
-![](https://i.imgur.com/uhW4hSM.png)
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/d07defcf-e396-4640-89b5-bd8ff078c57d)
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/568be73a-79c6-4513-841b-66f9f1980a43)
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/9d59e659-e229-451d-89f8-14df61acf663)
+
 ### Просмотр созданных ключей, подписей, секретных ключей, отпечатков
 
-`gpg --list-keys chursinov.g.s@edu.mirea.ru`
+`gpg --list-keys kurdyuko.a.a@edu.mirea.ru`
 
-`gpg --list-signatures chursinov.g.s@edu.mirea.ru`
+`gpg --list-signatures kurdyuko.a.a@edu.mirea.ru`
 
-`gpg --list-secret-keys chursinov.g.s@edu.mirea.ru`
+`gpg --list-secret-keys kurdyuko.a.a@edu.mirea.ru`
 
-`gpg --fingerprint chursinov.g.s@edu.mirea.ru`
+`gpg --fingerprint kurdyuko.a.a@edu.mirea.ru`
 
-![](https://i.imgur.com/9IZzgQF.png)
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/19b98ad8-1597-433e-852b-f3ed74c0d4c6)
+
 ### Создание отзывающего сертификата
 Вывод сертификата в консоль | Запись сертификата в файл
 --- | ---
-`gpg --gen-revoke chursinov.g.s@edu.mirea.ru` | `gpg --output revoke.asc --gen-revoke chursinov.g.s@edu.mirea.ru`
-![](https://i.imgur.com/AtKiFqE.png) | ![](https://i.imgur.com/0a6lO3N.png)
+`gpg --gen-revoke kurdyuko.a.a@edu.mirea.ru` | `gpg --output revoke.asc --gen-revoke kurdyuko.a.a@edu.mirea.ru`
+![изображение](https://github.com/Z-xel/TOIB/assets/70752907/84078d48-faa7-4867-b22a-6565b22de577) | ![изображение](https://github.com/Z-xel/TOIB/assets/70752907/d5e3e4fb-849d-4c6a-ba68-1daa09c9f2d9)
+
 ### Экспорт публичного ключа в бинарном и текстовом виде
 ![](https://i.imgur.com/vJkNn2L.png)
 В бинарном виде | В текстовом виде
